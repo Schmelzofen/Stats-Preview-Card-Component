@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-made-with-gridflex-and-sass-fXgwuixIc](https://www.frontendmentor.io/solutions/stats-preview-card-made-with-gridflex-and-sass-fXgwuixIc)
 - Live Site URL: [https://schmelzofen.github.io/Stats-Preview-Card-Component/](https://schmelzofen.github.io/Stats-Preview-Card-Component/)
 
 ## My process
