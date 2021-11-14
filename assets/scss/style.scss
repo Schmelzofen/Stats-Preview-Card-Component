@@ -1,22 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
-/*
-## Layout
-The designs were created to the following widths:
-- Mobile: 375px
-- Desktop: 1440px
-## Colors
-### Primary
-- Very dark blue (main background): hsl(233, 47%, 7%)
-- Dark desaturated blue (card background): hsl(244, 38%, 16%)
-- Soft violet (accent): hsl(277, 64%, 61%)
-### Neutral
-- White (main heading, stats): hsl(0, 0%, 100%)
-- Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
-- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
-- Font size: 15px
-*/
-
 *{
     margin: 0;
     padding: 0;
@@ -25,7 +8,7 @@ The designs were created to the following widths:
 }
 
 body{
-    background: rgb(2,0,1);
+    background: hsl(233, 47%, 7%);
     overflow: hidden;
 }
 h1, h2{
@@ -40,9 +23,9 @@ span{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     align-items: center;
-    padding: 8% 10%;
+    padding: 9% 10% 0% 10%;
     .text-container{
-        background: rgb(7,11,54);
+        background: hsl(244, 38%, 16%);
         padding: 14% 0 7% 13%;
         border-radius: 10px 0 0 10px;
         h1{
@@ -69,9 +52,10 @@ span{
             position: absolute;
             top: 0;
             left: 0;
-            opacity: .4;
+            opacity: .5;
             height: 100%;
             width: 100%;
+            border-radius: 0 10px 10px 0;
         }
     }
     .subtext{
