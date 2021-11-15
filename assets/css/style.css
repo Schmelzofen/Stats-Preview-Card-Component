@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+/*
+- Mobile: 375px
+- Desktop: 1440px 
+ */
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +13,7 @@
 body {
   background: #090b1a;
   overflow: hidden;
+  font-size: 15px;
 }
 
 h1, h2 {
@@ -19,126 +24,17 @@ span {
   color: #aa5cdb;
 }
 
-.main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  align-items: center;
-  padding: 9% 10% 0% 10%;
-}
-.main .text-container {
-  background: #1b1938;
-  padding: 10% 0 7% 12%;
-  border-radius: 10px 0 0 10px;
-}
-.main .text-container h1 {
-  font-size: 5vh;
-  padding: 0% 0 7% 0%;
-  width: 85%;
-}
-.main .text-container p {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 2.2vh;
-  padding: 0% 0 14% 0%;
-  width: 77%;
-  line-height: 3.5vh;
-}
-.main .image-container {
-  background: url(../img/image-header-desktop.jpg) center/cover no-repeat;
-  position: relative;
-  height: 100%;
-  width: 100%;
-  border-radius: 0 10px 10px 0;
-}
-.main .image-container .image-overlay {
-  background: #aa5cdb;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-  height: 100%;
-  width: 100%;
-  border-radius: 0 10px 10px 0;
-}
-.main .subtext {
-  display: flex;
-  flex-wrap: wrap;
-}
-.main .subtext .subtext1 p, .main .subtext .subtext2 p, .main .subtext .subtext3 p {
+h3 {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 2.2vh;
-}
-.main .subtext .subtext1 h2, .main .subtext .subtext2 h2, .main .subtext .subtext3 h2 {
-  padding: 0 0 5% 0;
-}
-.main .subtext .subtext1 {
-  padding: 0 13% 0 0;
-}
-.main .subtext .subtext2 {
-  padding: 0 13% 0 0;
 }
 
-@media only screen and (max-width: 375px) {
-  body {
-    overflow: visible;
-  }
+p {
+  color: rgba(255, 255, 255, 0.75);
+}
 
-  .main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 40vh 60vh;
-  }
-  .main .text-container {
-    border-radius: 0 0 10px 10px;
-    padding: 60% 0 10% 0;
-    text-align: center;
-  }
-  .main .text-container h1 {
-    width: 92%;
-    font-size: 5vh;
-    margin: 0 auto;
-  }
-  .main .text-container > p {
-    width: 88%;
-    padding: 0 5% 15% 5%;
-    line-height: 3.7vh;
-    margin: 0 auto;
-  }
-  .main .text-container .subtext {
-    flex-direction: column;
-    align-items: center;
-  }
-  .main .text-container .subtext .subtext1, .main .text-container .subtext .subtext2 {
-    padding: 0;
-  }
-  .main .text-container .subtext .subtext1 p {
-    padding: 0% 0 35% 0;
-  }
-  .main .text-container .subtext .subtext2 p {
-    padding: 0 0 35% 0;
-  }
-  .main .text-container .subtext .subtext3 p {
-    padding: 0 0 35% 0;
-  }
-  .main .image-container {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    background: url(../img/image-header-desktop.jpg) no-repeat;
-    background-size: 100%;
-    height: 70%;
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-  }
-  .main .image-container .image-overlay {
-    background: #aa5cdb;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.4;
-    height: 100%;
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-  }
+main {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 /*# sourceMappingURL=style.css.map */
